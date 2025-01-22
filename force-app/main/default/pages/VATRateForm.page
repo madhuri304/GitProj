@@ -1,0 +1,10 @@
+<apex:page controller="VATController">
+    <apex:form >
+       <apex:pageBlock title="VAT Rates" mode="edit">
+           <apex:pageMessages />
+           <apex:pageBlockButtons >
+               <apex:commandButton action="{!save}" value="Save"/>
+               </apex:pageBlockButtons>
+       </apex:pageBlock>
+    </apex:form>
+</apex:page>

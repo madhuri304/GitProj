@@ -1,3 +1,14 @@
 <template>
-    
+    <lightning-record-edit-form object-api-name="Account">
+    <div>
+    <lightning-button variant="brand" label="Current Time" title="show Time" onclick={handleClick} 
+    class="slds-m-center_x-small"></lightning-button>
+
+</div>
+</lightning-record-edit-form>
+<lightning-flow if:true={renderFlow}
+    flow-api-name={flowApiName}
+    flow-input-variables={flowtusChangeInputVariables}
+    >
+</lightning-flow>
 </template>

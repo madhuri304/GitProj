@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+//import { createElement } from 'lwc';
 import SytemTime from 'c/sytemTime';
 
 describe('c-sytem-time', () => {
